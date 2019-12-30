@@ -22,3 +22,22 @@ loading_screen()
 
 # In python, the amount of whitespace tells the computer 
 # what is part of a function and what is not.
+
+# Parameters
+# Parameters are variables that you can pass into the function
+# when you call it.
+
+                   #Parameter#
+def greet_customer(special_item):
+    print("Welcome!")
+    print("Our special is " + special_item + ".")
+    print("Thank you for shopping with us.")
+
+# special_item is reffered to as a formal parameter.
+# This is a placeholder for the value we would add into
+# the function call
+
+greet_customer("peanut butter")
+
+# The value between the parantheses when we call the function
+# is known as an argument of the function call.
