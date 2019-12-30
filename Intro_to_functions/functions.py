@@ -9,3 +9,16 @@ def sing_song():
     print("and they drift to the ground")
 
 sing_song()
+
+# The keyword def tells Python that we are "defining" a function
+# The function is called sing_song
+# Everything that is indented after the (:) is what is 
+# run when sing_song() is called.
+
+def loading_screen():
+    print("This page is loading...")
+
+loading_screen()
+
+# In python, the amount of whitespace tells the computer 
+# what is part of a function and what is not.
